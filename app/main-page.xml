@@ -4,8 +4,18 @@
         <Label text="Please tap me" class="text-3xl text-center" />
         <Button text="TAP" tap="{{ onTap }}" class="-primary" />
         <Label text="{{ message }}" class="text-lg text-center text-gray-400" textWrap="true" />
-        
+
         <Switch checked="true" loaded="onSwitchLoaded" />
+        <TimePicker
+            hour="10"
+            minute="25"
+            loaded="onPickerLoaded"
+            row="2"
+            col="0"
+            colSpan="2"
+            class="m-15"
+            verticalAlignment="center"
+        />
 
     </StackLayout>
 </Page>
