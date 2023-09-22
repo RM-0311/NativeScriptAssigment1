@@ -5,7 +5,7 @@
         <Button text="TAP" tap="{{ onTap }}" class="-primary" />
         <Label text="{{ message }}" class="text-lg text-center text-gray-400" textWrap="true" />
 
-        <Switch checked="true" loaded="onSwitchLoaded" />
+        <Label text="Please pick date and time of your liking" class="text-3xl text-center" />
         <TimePicker
             hour="10"
             minute="25"
