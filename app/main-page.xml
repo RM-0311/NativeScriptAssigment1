@@ -22,6 +22,7 @@
             class="m-15"
             verticalAlignment="center"
         />
+        <TextField hint="Enter name here" color="orangered" backgroundColor="lightyellow" />
         <Button text="Press When Finished" tap="{{ onTap }}" class="-primary" />
     </StackLayout>
 </Page>
