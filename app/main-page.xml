@@ -5,7 +5,7 @@
         <Button text="TAP" tap="{{ onTap }}" class="-primary" />
         <Label text="{{ message }}" class="text-lg text-center text-gray-400" textWrap="true" />
 
-        <Label text="Please pick date and time of your liking" class="text-3xl text-center" />
+        <Label text="Please pick date and time" class="text-3xl text-center" />
         <DatePicker
             year="1980"
             month="4"
@@ -22,6 +22,6 @@
             class="m-15"
             verticalAlignment="center"
         />
-
+        <Button text="Press When Finished" tap="{{ onTap }}" class="-primary" />
     </StackLayout>
 </Page>
